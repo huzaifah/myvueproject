@@ -3,7 +3,8 @@ import Vue from 'vue'
 // import Product from './components/Product.vue'
 //import PagedProduct from './components/PagedProduct.vue'
 //import EventPage from './components/EventPage.vue'
-import Page from './components/EventProp.vue';
+//import Page from './components/EventProp.vue';
+import Page from './components/EventPageCapture.vue';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.config.productionTip = false
