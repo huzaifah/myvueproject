@@ -4,7 +4,7 @@
             Outer element
             <div id="middle-element" class="bg-secondary p-4" v-on:click.stop="handleClick">
                 Middle element
-                <div id="inner-element" class="bg-info p-4" v-on:click="handleClick">
+                <div id="inner-element" class="bg-info p-4" v-on:click.once="handleClick">
                 Inner element
                 </div>
             </div>         
