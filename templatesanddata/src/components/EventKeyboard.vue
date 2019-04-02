@@ -3,7 +3,7 @@
         <div class="bg-primary p-4 text-white h3">
             {{ message }}
         </div>
-        <input class="form-control bg-light" placeholder="Type here..." v-on:keydown.ctrl="handleKey" />
+        <input class="form-control bg-light" placeholder="Type here..." v-on:keydown.ctrl.exact="handleKey" />
     </div>
 </template>
 
