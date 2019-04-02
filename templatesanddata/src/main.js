@@ -6,7 +6,9 @@ import Vue from 'vue'
 //import Page from './components/EventProp.vue';
 //import Page from './components/EventPageCapture.vue';
 //import Page from './components/EventKeyboard.vue';
-import Page from './components/EventModel.vue';
+//import Page from './components/EventModel.vue';
+//import Page from './components/EventModelForm.vue';
+import Page from './components/EventModelForm2.vue';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.config.productionTip = false
