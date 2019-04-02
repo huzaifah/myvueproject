@@ -4,7 +4,7 @@
             Outer element
             <div id="middle-element" class="bg-secondary p-4" v-on:click.stop="handleClick">
                 Middle element
-                <div id="inner-element" class="bg-info p-4" v-on:click.once="handleClick">
+                <div id="inner-element" class="bg-info p-4" v-on:click.once="handleClick" v-on:mousedown.right="handleMouseClick">
                 Inner element
                 </div>
             </div>         
@@ -18,6 +18,9 @@
         methods: {
             handleClick($event) {
                 console.log(`handleClick target: ${$event.target.id}` + ` currentTarget: ${$event.currentTarget.id}`);
+            },
+            handleMouseClick($event) {
+                console.log(`handleMouseClick target: ${$event.target.id}` + ` currentTarget: ${$event.currentTarget.id}`);
             }
         }
     }
