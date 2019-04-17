@@ -11,7 +11,7 @@
             <div class="form-group">
                 <label>Selected Names</label>
                 <select class="form-control" v-model="name">
-                    <option value="all">Everyone</option>
+                    <option value="All">Everyone</option>
                     <option v-for="n in allNames" v-bind:key="n" v-bind:value="n">Just {{ n }}</option>
                 </select>
             </div>    
