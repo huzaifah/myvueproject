@@ -11,6 +11,10 @@
             </label>
         </div>
 
+        <select multiple class="form-control" v-model="cities">
+            <option v-for="city in cityNames" v-bind:key="city">{{ city }}</option>
+        </select>
+
         <div class="text-center">
             <button v-on:click="reset" class="btn btn-info">Reset</button>
         </div>
