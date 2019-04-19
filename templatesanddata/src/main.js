@@ -13,7 +13,8 @@ import Vue from 'vue'
 //import Page from './components/EventModelForm4.vue';
 //import Page from './components/EventModelForm5.vue';
 //import Page from './components/EventModelForm6.vue';
-import Page from './components/EventModelForm7.vue';
+//import Page from './components/EventModelForm7.vue';
+import Page from './components/EventModelForm8.vue';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.config.productionTip = false
