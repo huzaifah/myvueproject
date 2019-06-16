@@ -1,10 +1,7 @@
 <template>
   <div class="bg-secondary text-white text-center m-2 p-2 h5">
-    Root Component
-    <ChildComponent></ChildComponent>
-    <child-component></child-component>
+    {{ message }}
     <my-feature></my-feature>
-    
   </div>
 </template>
 
@@ -14,6 +11,11 @@ export default {
   name: 'App',
   components: {
     MyFeature: ChildComponent
+  },
+  data: function() {
+    return {
+      message: "This is the parent component"
+    }
   }
 }
 </script>
