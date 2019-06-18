@@ -18,8 +18,8 @@ export default {
 }
 </script>
 <style scoped>
-  div {
+  /* div {
     border: 5px solid red;
-  }
+  } */
 </style>
 

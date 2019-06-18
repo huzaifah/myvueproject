@@ -1,8 +1,9 @@
 <template>
   <div class="bg-secondary text-white text-center m-2 p-2 h5">
-    {{ message }}
-    <MyFeature labelText="Name" initialValue="Kayak"></MyFeature>
-    <my-feature label-text="Category" initial-value="Watersports"></my-feature>
+    <div class="form-group">
+      <input class="form-control" v-model="labelText" />
+    </div>
+    <my-feature v-bind:label-text="labelText" initial-value="Kayak"></my-feature>
   </div>
 </template>
 
@@ -15,7 +16,8 @@ export default {
   },
   data: function() {
     return {
-      message: "This is the parent component"
+      message: "This is the parent component",
+      labelText: "Name"
     }
   }
 }
