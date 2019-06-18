@@ -1,7 +1,8 @@
 <template>
   <div class="bg-secondary text-white text-center m-2 p-2 h5">
     {{ message }}
-    <my-feature></my-feature>
+    <MyFeature labelText="Name" initialValue="Kayak"></MyFeature>
+    <my-feature label-text="Category" initial-value="Watersports"></my-feature>
   </div>
 </template>
 
